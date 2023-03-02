@@ -4,21 +4,30 @@
     text-decoration: none;
 }
 
+:root {
+    --blue: #79A9F5;
+}
+
 body{
     /* background-image: url(header.jpg); */
     border-image-width: auto;
     background-color: aliceblue;
 }
 
-.header{
+.nav{
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: var(--blue);
+    height: 70px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.26);
 }
 
 a{
-    color: white;
+    color: var(--blue);
 }
 
 ul{
@@ -38,6 +47,10 @@ ul{
     margin-left: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.right ul li a:hover{
+    font-weight: bolder;
 }
 
 .about-me{
@@ -76,4 +89,23 @@ ul{
 
 .profilePhoto{
     margin: 20px;
+}
+
+.skills{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title::before{
+    content: '';
+    color: var(--blue);
+    position: absolute;
+    left: 48vw;
+    right: 0;
+    height: 5px;
+    top: 390px;
+    width: 50px;
+    background: var(--blue);
 }
