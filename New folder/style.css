@@ -131,3 +131,46 @@ ul{
 .skills-images img{
     padding: 20px;
 }
+
+.projects{
+    margin-top: 30px;
+    /* background-color: rgb(201, 188, 188);   */
+    padding: 10px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.container{
+    background-color: white;
+    padding: 10px;
+}
+
+.projects{
+    text-align: center;
+}
+
+.projects h1{
+    padding-bottom: 30px;
+}
+
+.about-project{
+    display: flex;
+    margin-top: 20px;
+}
+
+.images ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.images img{
+    width: 200px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h5{
+    margin-top: 10px;
+}
