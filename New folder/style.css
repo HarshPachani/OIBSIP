@@ -93,11 +93,19 @@ ul{
 
 .skills{
     margin-top: 40px;
-    display: flex;
+    display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
+/* span{
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    color: red;
+} */
+/* 
 .title::before{
     content: '';
     color: var(--blue);
@@ -108,4 +116,18 @@ ul{
     top: 390px;
     width: 50px;
     background: var(--blue);
+} */
+
+.skills-images{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-images img{
+    padding: 20px;
 }
