@@ -24,6 +24,7 @@ body{
     position: sticky;
     top: 0;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.26);
+    z-index: 100;
 }
 
 a{
@@ -67,6 +68,15 @@ ul{
     border-radius: 15px;
     box-shadow: 2px 2px 15px black; /*it's like three axes like: x-axis y-axis z-axis color*/  
 }
+
+.intro{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-size: 60px;
+    color: green;
+}
+
 
 .about{
     display: grid;
@@ -186,7 +196,8 @@ ul{
     margin-left: 10vw;
     margin-right: 10vw;
     padding: 20px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
+    margin-bottom: 20px;
 }
 
 .myskills h1{
@@ -243,7 +254,8 @@ ul{
 .footer-container{
     background-color: var(--blue);
     width: 100%;
-    padding-top: 50px;
+    padding-top: 20px;
+    border-radius: 20px;
 }
 
 .footer-box{
@@ -252,6 +264,7 @@ ul{
     padding: 20px;
     background-color: white;
     justify-content: space-between;
+    border-radius: 20px;
 }
 
 .footer-box-left{
@@ -263,7 +276,7 @@ ul{
 
 .footer-box-left input{
     margin: 5px;
-    border: 1px solid grey;
+    border: 1px solid rgb(199, 191, 191);
     border-radius: 5px;
     height: 15px;
     padding: 5px;
@@ -276,7 +289,7 @@ ul{
 
 .footer-box-left textarea{
     margin: 5px;
-    border: 1px solid grey;
+    border: 1px solid rgb(199, 191, 191);
     border-radius: 5px;
     padding: 5px;
     font-size: 11px;
@@ -331,4 +344,14 @@ button{
 .copyright span{
     color: #0078ff;
     font-weight: bolder;
+}
+
+.name h6, .address h6, .email h6, .phone h6{
+    font-weight: 10;
+}
+
+.name, .address, .email, .phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
