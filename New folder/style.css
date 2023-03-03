@@ -206,17 +206,35 @@ ul{
     font-size: 20px;
 }
 
-.mySkills-container {
+.mySkills-container1 {
     background-color: rgb(192, 192, 192);
-    width: 90%;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.mySkills-container2 {
+    background-color: rgb(192, 192, 192);
+    width: 75%;
+    border-radius: 8px;
+}
+
+.mySkills-container3 {
+    background-color: rgb(192, 192, 192);
+    width: 70%;
+    border-radius: 8px;
+}
+
+.mySkills-container4 {
+    background-color: rgb(192, 192, 192);
+    width: 85%;
     border-radius: 8px;
 }
 
 .skill {
     background-color: var(--blue);
     color: white;
-    padding: 1px;
+    padding: 0.5px;
     text-align: right;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 8px;
 }
