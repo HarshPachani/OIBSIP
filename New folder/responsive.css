@@ -38,3 +38,10 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 567px){
+    .footer-box{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
