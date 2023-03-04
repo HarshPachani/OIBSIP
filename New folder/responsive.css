@@ -25,6 +25,8 @@
 
     .footer-box{
         overflow: auto;
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
@@ -40,8 +42,5 @@
 }
 
 @media screen and (max-width: 567px){
-    .footer-box{
-        display: flex;
-        flex-direction: column-reverse;
-    }
+    
 }
