@@ -1,0 +1,40 @@
+@media screen and (max-width: 800px){
+    .about{
+        display: block;
+        /* grid-template-columns: 1fr; */
+        overflow: auto;
+    }
+
+    .about-left{
+        display: flex;
+        margin: 0px;
+    }
+    .about-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-project{
+        display: block;
+    }
+
+    .skills-images img{
+        /* flex-direction: column; */
+        margin: 0px;
+    }
+
+    .footer-box{
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .imageandname img{
+        width: 100%;
+    }
+
+    .imageandname{
+        display: flex;
+        flex-direction: column;
+    }
+}

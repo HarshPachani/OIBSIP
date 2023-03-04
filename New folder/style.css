@@ -178,6 +178,7 @@ ul{
 .images ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
 }
 
 .images img{
@@ -242,6 +243,11 @@ ul{
     border-radius: 8px;
 }
 
+.mySkills-container5 {
+    background-color: rgb(192, 192, 192);
+    width: 90%;
+    border-radius: 8px;
+}
 
 .skill {
     background-color: var(--blue);
@@ -262,6 +268,9 @@ ul{
     padding: 5px;
 }
 .python span{
+    padding: 5px;
+}
+.mysql span{
     padding: 5px;
 }
 
