@@ -70,6 +70,7 @@
 @media screen and (min-width: 200px) and (max-width: 400px){
     .password_Manager ul img{
         width: 150px;
+        margin: auto;
     }
 
     .image img{
@@ -80,6 +81,7 @@
 @media screen and (min-width: 400px) and (max-width: 600px){
     .password_Manager ul img{
         width: 280px;
+        margin: auto;
     }
 
     .landingPage ul img{
@@ -98,5 +100,10 @@
     .landingPage ul img{
         width: 170px;
         margin-bottom: 20px;
+        margin: auto;
+    }
+
+    .password_Manager ul img{
+        margin: auto;
     }
 }
