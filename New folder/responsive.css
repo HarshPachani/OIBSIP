@@ -28,6 +28,10 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .images img{
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -41,6 +45,23 @@
     }
 }
 
-@media screen and (max-width: 567px){
-    
+@media screen and (min-width: 600px) and (max-width: 721px) {
+    .images img{
+        width: 200px;
+    }
 }
+
+@media screen and (min-width: 400px) and (max-width: 599px){
+    .images img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .images img{
+        width: 100px;
+    }
+}
+/* @media screen and (max-width: 567px){
+    
+} */
