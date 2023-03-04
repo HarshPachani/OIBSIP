@@ -71,6 +71,10 @@
     .password_Manager ul img{
         width: 150px;
     }
+
+    .image img{
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px){
