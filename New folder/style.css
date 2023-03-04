@@ -170,6 +170,19 @@ ul{
     padding-bottom: 30px;
 }
 
+.password_Manager ul img{
+    width: 400px;
+}
+
+.landingPage ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.landingPage ul img{
+    width: 400px;
+}
+
 .about-project{
     display: flex;
     margin-top: 20px;

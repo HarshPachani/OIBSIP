@@ -66,3 +66,26 @@
         display: none;
     } */
 }
+
+@media screen and (min-width: 200px) and (max-width: 400px){
+    .password_Manager ul img{
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+    .password_Manager ul img{
+        width: 280px;
+    }
+
+    .landingPage ul img{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .landingPage ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
