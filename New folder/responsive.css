@@ -93,3 +93,10 @@
         flex-direction: column;
     }
 }
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .landingPage ul img{
+        width: 170px;
+        margin-bottom: 20px;
+    }
+}
