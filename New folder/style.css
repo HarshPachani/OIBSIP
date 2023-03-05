@@ -93,11 +93,20 @@ ul{
     margin: 20px;
 }
 
+.about-right h3{
+    margin-bottom: 20px;
+    color: var(--blue);
+}
+
 .about-right a{
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.about-right p{
+    margin-bottom: 15px;
 }
 
 .imageandname{
@@ -224,6 +233,7 @@ ul{
 
 .title h5{
     margin-top: 10px;
+    margin-left: 20px;
 }
 
 .description{
