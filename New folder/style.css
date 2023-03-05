@@ -35,6 +35,11 @@ ul{
     list-style-type: none;
 }
 
+.background-image img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .left{
     padding-left: 40px;
 }
@@ -74,7 +79,8 @@ ul{
     top: 200px;
     left: 50px;
     font-size: 60px;
-    color: green;
+    /* color: green; */
+    color: white;
 }
 
 
@@ -87,6 +93,13 @@ ul{
     margin: 20px;
 }
 
+.about-right a{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .imageandname{
     display: flex;
     flex-direction: row;
@@ -95,6 +108,11 @@ ul{
 
 .name{
     margin: auto;
+}
+
+.name h5{
+    margin-bottom: 20px;
+    font-size: larger;
 }
 
 .profilePhoto{
@@ -130,7 +148,9 @@ ul{
 
 .skills-images{
     margin-top: 50px;
-    width: 100px;
+    max-width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
     height: 100px;
     aspect-ratio: 3/2;
     object-fit: contain;
@@ -204,6 +224,19 @@ ul{
 
 .title h5{
     margin-top: 10px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.description a{
+    margin: 40px;
+}
+
+.description a:hover{
+    color: red;
 }
 
 .myskills{
@@ -319,9 +352,9 @@ ul{
     font-size: 11px;
 }
 
-input:focus{
-    border: 1px solid var(--blue);
-}
+/* input:focus{
+    border: 4px solid var(--blue);
+} */
 
 /* .footer-box-left input:hover, .footer-box-left textarea:hover{
     border: 2px solid #0078ff;
